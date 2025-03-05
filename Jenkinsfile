@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS_ID = 'd4fc94fe-eea9-4d77-bc2b-a7e3cc68d45c'
-        DOCKERHUB_REPO = 'villeschulz/devopschain'
-        DOCKER_IMAGE_TAG = 'ver2'
+        DOCKERHUB_REPO = 'villeschulz/fuelcalc'
+        DOCKER_IMAGE_TAG = 'ver1'
     }
 
     stages {
